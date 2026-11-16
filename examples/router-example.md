@@ -1,7 +1,7 @@
 # Worked example — "The Router Nobody Touches"
 
-The reference production for this skill: one story, made in both styles.
-Storyboards: `router-storyboard-style-a-whiteboard.png` · `router-storyboard-style-b-color.png`
+The reference production for this skill: one story, made in all three styles.
+Storyboards: `router-storyboard-style-a-whiteboard.png` · `router-storyboard-style-a-color.png` (the Style A board after its colorize pass — identical drawing, color added) · `router-storyboard-style-b-color.png`
 
 **Planning line** — Viewer identity: anyone whose home router has sat untouched for years. Mechanism (one only): the router's admin password is still the factory default, `admin`.
 

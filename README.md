@@ -3,6 +3,7 @@
 A portable AI skill that turns a topic or a rough script into a **complete faceless cartoon story-Short** — script, storyboard, scene prompts, narration and captions — in one of two house styles:
 
 - **Style A — Whiteboard Doodle:** black-marker stick figures on white, exactly one red accent on the secret.
+- **Style A-Color — Colorized Doodle:** the same doodle art, fully colorized — people, home and devices in flat, realistic colors.
 - **Style B — Color Cartoon:** polished full-color cartoon, realistic object colors, and a **different background in every scene**.
 
 Built on a simple, proven system: **one contrarian claim, one hidden mechanism, one small story in 4 beats — Shock → Cause → Mechanism → Payoff.** The same story, made in both styles:
@@ -10,6 +11,10 @@ Built on a simple, proven system: **one contrarian claim, one hidden mechanism, 
 | Style A — Whiteboard Doodle | Style B — Color Cartoon |
 |---|---|
 | ![Style A storyboard](examples/router-storyboard-style-a-whiteboard.png) | ![Style B storyboard](examples/router-storyboard-style-b-color.png) |
+
+And the middle option — **Style A-Color**, the Style A board after its colorize pass:
+
+![Style A-Color storyboard](examples/router-storyboard-style-a-color.png)
 
 ## How to use it (any AI)
 
@@ -31,6 +36,7 @@ Works with Claude (as a Skill), ChatGPT, Gemini, or any assistant that can read 
 - `SKILL.md` — the skill itself: inputs, workflow, output format, hard rules.
 - `references/script-formula.md` — the 4-beat story system, caption and title rules, series logic.
 - `references/style-a-whiteboard-doodle.md` — Style A spec + master prompts.
+- `references/style-a-color-doodle.md` — Style A-Color: the colorize-pass system + prompt.
 - `references/style-b-color-cartoon.md` — Style B spec + master prompts.
 - `references/production-workflow.md` — storyboard → scenes → voice → captions → assembly → QC checklist.
 - `examples/router-example.md` — one complete worked example in both styles.
