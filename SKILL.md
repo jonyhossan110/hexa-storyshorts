@@ -1,6 +1,6 @@
 ---
 name: hexa-storyshorts
-description: "Faceless cartoon story-Shorts maker: turns a topic or rough script into a complete vertical short video package (4-beat story script, storyboard, per-scene image prompts, narration, captions, title) in one of three house styles — Style A Whiteboard Doodle (black-and-white stick figures, one red accent), Style A-Color (the same doodle, fully colorized), or Style B Color Cartoon (polished full-color, a different background in every scene). Use when the user asks for a story short, a cartoon explainer video, a storyboard, or says a style name ('whiteboard style', 'color cartoon style', 'storyshorts'). Modelled on the one-mechanism explainer formula: one contrarian claim, one hidden mechanism, one small story."
+description: "Faceless cartoon story-Shorts maker: turns a topic or rough script into a complete vertical short video package (4-beat story script, storyboard, per-scene image prompts, narration, captions, title) in one of five house styles — Style A Whiteboard Doodle (black-and-white stick figures, one red accent), Style A-Color (the same doodle, fully colorized), Style B Color Cartoon (polished full-color, a different background in every scene), Style C Paint Explainer (deliberately crude MS Paint look, "Every X…" explainers), or Style D VS Comparison (two rivals, judged rounds, scoreboard verdict). Use when the user asks for a story short, a cartoon explainer video, a storyboard, or says a style name ('whiteboard style', 'color cartoon style', 'storyshorts'). Modelled on the one-mechanism explainer formula: one contrarian claim, one hidden mechanism, one small story."
 ---
 
 # Hexa StoryShorts — faceless cartoon story-Shorts skill
@@ -14,7 +14,7 @@ The formula behind the styles: **one contrarian claim + one hidden mechanism + o
 Ask for (or infer) only what is missing:
 
 1. **Topic or rough script** — a subject ("home Wi-Fi safety"), a fact, or the user's own draft in any language.
-2. **Style** — `A` (Whiteboard Doodle), `A-Color` (Colorized Doodle) or `B` (Color Cartoon). If the user does not choose, default to **B** for tech/lifestyle topics and **A** for the simplest, fastest productions; say which you chose.
+2. **Style** — `A` (Whiteboard Doodle), `A-Color` (Colorized Doodle), `B` (Color Cartoon), `C` (Paint Explainer) or `D` (VS Comparison). If the user does not choose, default to **B** for tech/lifestyle topics and **A** for the simplest, fastest productions; say which you chose.
 3. **Length** — default Short: 4 beats, ~40–55 seconds. Longer explainers: 6–8 beats, same rules per beat.
 
 ## The non-negotiable story system (both styles)
@@ -39,6 +39,8 @@ Supporting rules:
 - **Style A — Whiteboard Doodle** (`references/style-a-whiteboard-doodle.md`): black marker stick figures on white, thick outlines, lots of white space, exactly ONE red accent reserved for the mechanism in Beat 3. Fastest and cheapest to produce; extremely clear.
 - **Style A-Color — Colorized Doodle** (`references/style-a-color-doodle.md`): the Style A drawing with a colorize pass on top — same doodle art, captions and composition, flat color added to people, home and devices (realistic device colors; the red accent stays). The middle option: doodle clarity with a warm, clickable look.
 - **Style B — Color Cartoon** (`references/style-b-color-cartoon.md`): polished full-color flat cartoon, realistic colors for every object and device, detailed designed backgrounds — and **the background changes completely in every scene**, each with its own color mood (e.g. night-blue → warm morning yellow → dark spotlight → bright teal). Richer and more premium; slower to produce.
+- **Style C — Paint Explainer** (`references/style-c-paint-explainer.md`): deliberately crude MS Paint drawing — wobbly lines, big-head stick figures, hand-drawn arrows and labels. Built for "Every X…" explainers; the script carries the video. Proven format (The Paint Explainer, ~2M subscribers) and the fastest to produce.
+- **Style D — VS Comparison** (`references/style-d-vs-comparison.md`): every frame split blue vs orange, two rival mascot characters, judged rounds and a scoreboard verdict. "X vs Y" titles earn roughly 2× the median views; the match structure holds viewers to the verdict. The verdict must stay fair — the loser keeps one real strength.
 
 Reference storyboards for both styles live in `examples/` (the same "router" story in both styles — study them before generating anything).
 
@@ -91,6 +93,10 @@ Plus the storyboard image when you can generate images.
 - `references/style-a-whiteboard-doodle.md` — Style A spec + master prompts.
 - `references/style-a-color-doodle.md` — Style A-Color: the colorize-pass system + prompt.
 - `references/style-b-color-cartoon.md` — Style B spec + master prompts.
+- `references/style-c-paint-explainer.md` — Style C spec + master prompts.
+- `references/style-d-vs-comparison.md` — Style D spec + master prompts.
 - `references/production-workflow.md` — storyboard → scenes → voice → captions → assembly → QC.
 - `examples/router-example.md` — one complete worked example (both styles).
 - `examples/router-storyboard-style-a-whiteboard.png`, `examples/router-storyboard-style-a-color.png`, `examples/router-storyboard-style-b-color.png` — the reference storyboards (the same story in all three styles).
+- `examples/free-apps-storyboard-style-c-paint.png` — the Style C reference storyboard ("Every Free App Has a Price").
+- `examples/password-vault-storyboard-style-d-vs.png` — the Style D reference storyboard ("Your Brain vs a Password App").
