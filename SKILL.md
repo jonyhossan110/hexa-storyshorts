@@ -32,6 +32,7 @@ Supporting rules:
 - **Two archetypes in frame**: the ordinary person/family and the hidden threat (stranger, hacker, app, system). Keep the same character designs in every scene of the video.
 - **Captions carry the story**: bold caption bar on every scene, ALL CAPS, max 5 words, readable with the sound off. The story must make sense from the captions + images alone.
 - **Narration** is calm, plain, story-first — no lecture tone, no list-reading. One to two short sentences per beat.
+- **Steps, not just beats**: each beat breaks into STEPS — one step per narration sentence or distinct action — and **every step gets its own scene image**. A 30–55 s video normally has 6–12 step images, not 4. The finished video walks through the steps one by one, so the viewer sees the story happen step by step.
 - **Title formula**: counter-intuitive claim + comparison or named mechanism ("Hackers Don't Break In. They Log In."). No clickbait that the video does not prove.
 
 ## The two styles
@@ -48,10 +49,10 @@ Reference storyboards for both styles live in `examples/` (the same "router" sto
 
 1. **Script** — write the 4-beat script using `references/script-formula.md`: per beat give the caption (≤5 words), the narration line, and a one-line visual description. Show it to the user if they asked to approve scripts; otherwise continue.
 2. **Storyboard** — generate ONE storyboard image (2×2 grid of the 4 beats) using the master storyboard prompt of the chosen style. This is the style/consistency proof — check characters, captions and the mechanism highlight before going further.
-3. **Scene images** — generate one vertical 9:16 image per beat using the per-scene prompt pattern of the chosen style, reusing the storyboard's character descriptions word-for-word so the cast never changes.
+3. **Step images** — generate one vertical 9:16 image per STEP using the per-scene prompt pattern of the chosen style, reusing the storyboard's character descriptions word-for-word so the cast never changes. Assembly may not start until every step has its image.
 4. **Voice** — narration from the script. Default: a calm male AI narrator voice (e.g. Gemini Flash TTS); never the user's own recorded voice unless they ask.
 5. **Captions** — bold word-by-word captions burned in from 0:01, following the caption bar text exactly.
-6. **Assembly + QC** — assemble in beat order, ~10–13 s per beat for a Short. Run the QC checklist in `references/production-workflow.md` before calling it done.
+6. **Assembly + QC** — assemble step by step: the exact step images, full-frame and STATIC, hard cuts only — **no zoom, pan, Ken Burns or any motion effect on a still** (§6 of `references/production-workflow.md` is the law). Run the QC checklist in `references/production-workflow.md` before calling it done.
 
 Full step-by-step production detail: `references/production-workflow.md`.
 
@@ -86,6 +87,7 @@ Plus the storyboard image when you can generate images.
 - Keep every fact in the script true and checkable; a scary claim you cannot back is cut, not softened.
 - The same character descriptions are reused verbatim across all scenes and the storyboard.
 - If the user's script is their own words and they ask for a conversion, convert it faithfully — fix only spelling/grammar, never rewrite their meaning.
+- **Assembly law — step by step, exact images, no motion.** The video shows the exact step images in order, static and full-frame; the step changes carry the motion. Never zoom, pan or animate a still, and never assemble with a missing step image — generate it first; never stretch or repeat an image to fill time.
 
 ## Files
 

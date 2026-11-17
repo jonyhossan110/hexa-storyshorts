@@ -20,6 +20,10 @@ Why shock first: the old way (calm setup → facts) loses the viewer in 2 second
 - **Beat 3 (Mechanism):** the single secret the video exists to reveal. It gets the visual highlight (Style A: the red circle; Style B: the spotlight/close-up). Name it in the caption in plain words ("PASSWORD STILL admin"). If a video seems to need two mechanisms, it is two videos.
 - **Beat 4 (Payoff):** the fix must be as simple as the threat was scary — one action, visibly done, threat visibly gone (broken connection line, red X, kicked-out stranger), hero visibly happy (thumbs up, shield icon). End the narration with the identity line when it fits: the viewer is the kind of person who now knows the secret.
 
+## Steps inside the beats
+
+Beats are the story's chapters; STEPS are what the viewer actually sees. Break each beat into steps — **one step per narration sentence or distinct action** — and give every step its own image and its own moment on screen. A beat with two sentences is two steps. The video must read as a walk through steps: the image changes exactly when the story moves. Never let one image sit on screen while the narration describes two different actions.
+
 ## Captions
 
 - One caption bar per beat (per scene), **ALL CAPS, max 5 words**, white bold text on a black bar at the bottom of the frame.
